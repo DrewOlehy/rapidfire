@@ -7,7 +7,8 @@ module Rapidfire
   # configuration which will be used as delimiter in case answers are bunch
   # of collection values. This is the default delimiter which is used by
   # all the browsers.
-  mattr_accessor :app_root, :answers_delimiter
+  mattr_accessor :answers_delimiter
+  mattr_accessor :app_root
   self.answers_delimiter = "\r\n"
 
   def self.config
